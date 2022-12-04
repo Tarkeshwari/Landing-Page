@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Store</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./js.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="row container">
+        <a href="#" class="logo">Cosmetics</a>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <div class="nav-icon row">
+                <a href="#">
+                    <img src="img1.png" alt="" width="20%%" height="20%">
+                </a>
+                <a href="#">
+                    <img src="img2.png" alt="" width="30%%" height="20%">
+                </a>
+                <a href="#">
+                    <img src="img3.png" alt="" width="30%" height="20%">
+                </a>
+            </div>
+        </nav>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+    
+
+    <section class="hero-bg">
+        <div class="swiper mySwiper hero-slider row container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide row flex">
+                    <div class="hero-content">
+                        <div>
+                            <h1>choose the perfect avenue for your skin</h1>
+                            <p>
+                                The purest and most effective modern scientific advancements serve as the foundation for our cosmetics
+                            </p>
+                            <a href="#" class="page-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="hero-img row"><img src="./img5.png" alt="" width="110%" height="100%"></div>
+                </div>
+                <div class="swiper-slide row flex">
+                    <div class="hero-content">
+                        <div >
+                            <h1>choose the perfect avenue for your skin</h1>
+                            <p>
+                                The purest and most effective modern scientific advancements serve as the foundation for our cosmetics
+                            </p>
+                        </div>
+                        <a href="#" class="page-btn">Shop now</a>
+                    </div>
+                    <div class="hero-img row"><img src="./img5.png" alt="" width="110%" height="100%"></div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+   
+
+    <section class="product container">
+        <div class="row flex">
+            <div class="p-content">
+                <div class="row"><img src="./img6.jpeg" alt="" width="1370px" height="15%" ></div>
+                <h3>For Women</h3>
+                <h6 class="TK">243 products</h6>
+            </div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <div class="row"><img src="./img9.jpg" alt="" width="1370px" height="15%"></div>
+                <h3>For Men</h3>
+                <h6 class="TK">243 products</h6>
+            </div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <div class="row"><img src="./img7.jpeg" alt="" width="1370px" height="15%"></div>
+                <h3>For Pregnant Women</h3>
+                <h6 class="TK">243 products</h6>
+            </div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <div class="row"><img src="./img10.jpeg" alt="" width="1370px" height="15%"></div>
+                <h3>For Childrens</h3>
+                <h6 class="TK">243 products</h6>
+            </div>
+        </div>
+
+        <div class="swiper mySwiper p-slider">
+            <div class="slider-content row">
+                <div class="header">
+                    <h2>Discounted products</h2>
+                </div>
+                <div class="arrows row">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide column">
+                <div class="5-img row">
+                    <img src="./eyepen.png" alt="" width="50%" height="198">
+                    <div class="tag">Offer</div>
+                </div>
+                <div>
+                    <h4>Liner Express Eyepen</h4>
+                    <div class="price row">
+                        <h6>Rs. 140</h6>
+                        <h6><s>Rs. 155</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="#" class="page-btn active">Add to cart</a>
+                    <div class="favorite row">
+                        <svg width="1" height="25" viewBox="0 0 512 512">
+                            <img  src="./img19.png" width="25px">
+                        </svg>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide column">
+                <div class="5-img row">
+                    <img src="./foundation.png" alt="" width="50%" >
+                    <div class="tag">Offer</div>
+                </div>
+                <div>
+                    <h4>HD Foundation-MN20</h4>
+                    <div class="price row">
+                        <h6>Rs. 212</h6>
+                        <h6><s>Rs. 235</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="#" class="page-btn active">Add to cart</a>
+                    <div class="favorite row">
+                        <svg width="1" height="25" viewBox="0 0 512 512">
+                            <img src="./img19.png" width="25px">
+                        </svg>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide column">
+                <div class="5-img row">
+                    <img src="./HD.png" alt="" width="50%">
+                    <div class="tag">Offer</div>
+                </div>
+                <div>
+                    <h4>HD Concealer-MNY20</h4>
+                    <div class="price row">
+                        <h6>Rs. 196</h6>
+                        <h6><s>Rs. 230</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="#" class="page-btn active">Add to cart</a>
+                    <div class="favorite row">
+                        <svg width="1" height="25" viewBox="0 0 512 512">
+                            <img src="./img19.png" width="25px">          
+                        </svg>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide column">
+                <div class="5-img row">
+                    <img src="./img13.png" alt="" width="50%">
+                    <div class="tag">Offer</div>
+                </div>
+                <div>
+                    <h4>Whiteglow Cream</h4>
+                    <div class="price row">
+                        <h6>Rs 200</h6>
+                        <h6><s>Rs 300</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="#" class="page-btn active">Add to cart</a>
+                    <div class="favorite row">
+                        <svg width="1" height="25" viewBox="0 0 512 512">
+                            <img src="./img19.png" width="25px">             
+                        </svg>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide column">
+                <div class="5-img row">
+                    <img src="./lipstick.png" alt="" width="50%">
+                    <div class="tag">Offer</div>
+                </div>
+                <div>
+                    <h4>Matte Lipstick</h4>
+                    <div class="price row">
+                        <h6>RS. 216</h6>
+                        <h6><s>Rs. 240</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="#" class="page-btn active">Add to cart</a>
+                    <div class="favorite row">
+                        <svg width="1" height="25" viewBox="0 0 512 512">
+                            <img src="./img19.png" width="25px">                  
+                        </svg>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide column">
+                <div class="5-img row">
+                    <img src="./primer.png" alt="" width="50%">
+                    <div class="tag">Offer</div>
+                </div>
+                <div>
+                    <h4>3 In 1 long Lasting Primer</h4>
+                    <div class="price row">
+                        <h6>Rs. 260</h6>
+                        <h6><s>Rs. 300</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="#" class="page-btn active">Add to cart</a>
+                    <div class="favorite row">
+                        <svg width="1" height="25" viewBox="0 0 512 512">
+                            <img src="./img19.png" width="25px">              
+                        </svg>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="about-bg">
+        <div class="about row flex container">
+            <div class="about-img row"><img src="./img16.jpeg" alt="" width="50%"></div>
+         
+            <div class="about content">
+                <h2>About cosmetics</h2>
+                <p>Cosmetics are a class of health and cosmetic goods intended to improve a person's physical appearance. Cosmetics are items created to beautify, protect, and modify the look of our bodies' exterior features. Cosmetics are made up of mixes of chemical components that are either obtained from natural sources or generated synthetically. Cosmetics serve a variety of functions. The body or skin can be cleansed or protected using those intended for personal care and skin care.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="subscribe-bg">
+        <div class="subscribe row container">
+            <div class="column">
+                <h2>Be the first to know all the new products</h2>
+                <p>Packaging is the first thing that consumers will see and read about the product. Text, colors, graphic, everything’s is chosen meticulously according to the outer packaging and marketing brief requirements</p>
+                <form action="" class="row">
+                    <input type="email" name="" ids="" placeholder="Your email....">
+                    <button type="submit" class="page-btn active">Subscribe<button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="blog container">
+        <div class="header">
+            <h2>Latest blog posts</h2>
+        </div>
+        <div class="blog-cards column">
+            <div class="b-card">
+                <div class="b-img row"><img src="./woman.jpeg" alt="" width="80%" height="100px"></div>
+                <div class="b-content column">
+                    <div class="data-comment row">
+                        <div class="date row">
+                            <img src="./img23.jpeg" alt="" width="20px" height="40%">
+                            <h6>4 Oct 2022</h6>
+                        </div>
+                        <div class="comment row">
+                            <img src="./img24.png" alt="" width="20px" height="40%">
+                            <h6>6 comment</h6>
+                        </div>
+                    </div>
+                    <h3> Multi ways to use this product.</h3>
+                    <a href="#" class="row">
+                        Read more
+                        <img src="./img25.png" alt="" width="20px">
+                    </a>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="b-img row"><img src="./pink.jpeg" alt="" width="120%" height="4000px"></div>
+                <div class="b-content column">
+                    <div class="data-comment row">
+                        <div class="date row">
+                            <img src="./img23.jpeg" alt="" width="20px" height="40%">
+                            <h6>4 Oct 2022</h6>
+                        </div>
+                        <div class="comment row">
+                            <img src="./img24.png" alt="" width="20px" height="40%">
+                            <h6>6 comment</h6>
+                        </div>
+                    </div>
+                    <h3> Multi ways to use this product.</h3>
+                    <a href="#" class="row">
+                        Read more
+                        <img src="./img25.png" alt="" width="20px">
+                    </a>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="b-img row"><img src="./fruit.jpeg" alt="" width="55%" height="280px"></div>
+                <div class="b-content column">
+                    <div class="data-comment row">
+                        <div class="date row">
+                            <img src="./img23.jpeg" alt="" width="20px" height="40%">
+                            <h6>4 Oct 2022</h6>
+                        </div>
+                        <div class="comment row">
+                            <img src="./img24.png" alt="" width="20px" height="40%">
+                            <h6>6 comment</h6>
+                        </div>
+                    </div>
+                    <h3> Multi ways to use this product.</h3>
+                    <a href="#" class="row">
+                        Read more
+                        <img src="./img25.png" alt="" width="20px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="logos column container">
+        <div class="row"><img src="./logo1.png" alt="" width="50%"></div>
+        <div class="row"><img src="./logo2.png" alt="" width="50%"></div>
+        <div class="row"><img src="./logo3.png" alt="" width="50%"></div>
+        <div class="row"><img src="./logo4.png" alt="" width="50%"></div>
+        <div class="row"><img src="./logo5.png" alt="" width="50%"></div>
+    </section>
+    
+
+    <section class="gallery row">
+        <div class="heading">
+            <h2>Follow us on instagram</h2>
+            <div class="insta"><a href="#">@cosmetics_world</a></div>
+        </div>
+        <div class="gallery-cards column">
+            <div class="row"><img src="./img5.png" alt="" width="100%"></div>
+            <div class="row"><img src="./img7.jpeg" alt="" width="100%"></div>
+            <div class="row"><img src="./img6.jpeg" alt="" width="100%"></div>
+            <div class="row"><img src="./img10.jpeg" alt="" width="100%"></div>
+            <div class="row"><img src="./img16.jpeg" alt="" width="100%"></div>
+            <div class="row"><img src="./img18.png" alt="" width="100%"></div>
+            <div class="row"><img src="./img20.jpeg" alt="" width="100%"></div>
+            <div class="row"><img src="./img27.png" alt="" width="100%"></div>
+            <div class="row"><img src="./img17.png" alt="" width="100%"></div>
+            <div class="row"><img src="./img9.jpg" alt="" width="100%"></div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer row">
+                <div class="footer-content">
+                    <a href="#" class="logo">Cosmetics</a>
+                    <p>Cosmetics made specifically for skin care can be used to nourish, protect, and exfoliate the skin as well as replenishing to improve one's look, one might use cosmetics to cover blemishes and highlight their natural qualities.</p>
+                    <div class="media-links row">
+                        <div class="row">
+                            <a href="#" class="row">
+                                <img src="./logo9.png" alt="" width="18px">
+                            </a>
+                            <a href="#" class="row">
+                                <img src="./logo10.png" alt="" width="18px">
+                            </a>
+                            <a href="#" class="row">
+                                <img src="./logo11.png" alt="" width="18px"> 
+                            </a>
+                            <a href="#" class="row">
+                                <img src="./logo12.png" alt="" width="25px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Quick links</h4>
+                    <ul>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact us</h4>
+                    <div class="column">
+                        <a href="#" class="row">
+                            <img src="./logo6.png" alt="" width="16px">
+                            14567 Tathawade , Pune , India
+                        </a>
+                        <a href="tel:+123 456 7890" class="row">
+                            <img src="./logo7.png" alt="" width="16px">
+                            +123 456 7890
+                        </a>
+                        <a href="mailto:contact@cosmetic.com" class="row">
+                            <img src="./logo8.png" alt="" width="16px">
+                            contact@cosmetic.com
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <p>Copyright &copy; All Right Reserved | Designed <span>By Tarkeshwari</span> 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
